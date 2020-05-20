@@ -1,25 +1,8 @@
 <html>
-<script langquage='javascript'>
-url=document.location;
-if ((url=="http://www.firstdomainname.com") || (url=="http://www.firstdomainname.com/"))
-{
-document.write("<head><title>www.firstdomainname.com</title></head>");
-document.write('<frameset cols="*">');
-document.write('<frame src="http://www.yourdomainname.com/firstdomainname">');
-document.write("</frameset>");
-}
-else if (url=="http://www.seconddomainname.com") || (url=="http://www.seconddomainname.com/"))
-{
-document.write("<head><title>www.seconddomainname.com</title></head>");
-document.write('<frameset cols="*">');
-document.write('<frame src="http://www.yourdomainname.com/seconddomainname">');
-document.write("</frameset>");
-}
-else
-{
-document.write('<frameset cols="*">');
-document.write('<frame src="http://www.yourdomainname.com/underconstruction.html">');
-document.write("</frameset>");
-}
-</script>
+<head>
+<title>redirect page</title>
+</head>
+<frameset cols="*">
+<frame src="http://www.yourdomain/yourname">
+</frameset>
 </html>
